@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Counter</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div className="body">
+			<div className="content">
+				<h1>This is counter App</h1>
+				<h2>Value Of Count <span id="value">0</span></h2>
+				<div className="button">
+					<button className="btn inc" onClick="counter('increment')">Increment</button>
+					<button className="btn" onClick="counter('reset')">Reset</button>
+					<button className="btn" onClick="counter('decrement')">Decrement</button>
+				</div>
+			</div>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
